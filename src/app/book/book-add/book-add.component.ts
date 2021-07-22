@@ -30,6 +30,9 @@ export class BookAddComponent implements OnInit {
       this.route.navigate(['/book/list'])
     })
   }
+  back() {
+    this.route.navigate(['book/list'])
+  }
 
 
 }
